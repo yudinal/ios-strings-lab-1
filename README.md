@@ -1,4 +1,4 @@
-# Strings Lab
+# Strings Lab 1
 
 Fork and clone this repo. On your fork, answer and commit the follow questions. When you are finished, submit the link to your repo on Canvas.
 
@@ -187,16 +187,6 @@ Hint: Keep track of the longest word you encounter and also keep track of its le
 
 ## Question 17
 
-Given a string `testString` create a new variable called `condensedString` that has any consecutive spaces in `testString` replaced with a single space.
-
-```swift
-let testString = "  How   about      thesespaces  ?  "
-//condensedString = " How about thesespaces ? "
-```
-
-
-## Question 18
-
 Given a string in English, create a tuple containing the number of vowels and consonants.
 
 ```swift
@@ -206,7 +196,7 @@ let input = "Count how many vowels I have!"
 ```
 
 
-## Question 19
+## Question 18
 
 Given a string of words separated by a `" "`. Write code that prints out the length of the last word.
 
@@ -219,7 +209,7 @@ Sample Input: `"How are you doing this Monday?"`
 Sample Output: `7`
 
 
-## Question 20
+## Question 19
 
 Given a string with multiple words. Write code that prints how many of them are palindromes.
 
@@ -230,7 +220,7 @@ Sample Input: `"danaerys dad cat civic bottle"`
 Sample Output: `2`
 
 
-## Question 21
+## Question 20
 
 You are given a string representing an **attendance record** for a student. The record only contains the following three characters:
 
@@ -249,7 +239,7 @@ Sample Input: `"PPALLP"`
 Sample Output: `true`
 
 
-## Question 22
+## Question 21
 
 Given a tuple with two strings. The first string is a **ransom note**, the second string being the characters from a magazine. Determine whether or not you can construct the ransom note using the characters from the magazine.
 
