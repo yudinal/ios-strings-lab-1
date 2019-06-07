@@ -33,7 +33,9 @@ Print out the last character in the string below.  You cannot use the Character 
 
 ## Question 6
 
-Write code that switches on a string. If the string's length is even, print out every character. If the string's length is odd, print out every other character.
+Write code that switches on a string, given the following conditions:
+- If the string's length is even, print out every character.
+- If the string's length is odd, print out every other character.
 
 
 ## Question 7
@@ -58,6 +60,11 @@ Build five pairs of **canonically equivalent** strings, the first of each being 
 
 ## Question 11
 
+**Using only Unicode**, print out `"HELLO WORLD!"` in another language.
+
+
+## Question 12
+
 Print the below flower box using the following information.
 
 - The unicode number for ⚘ is U-2698
@@ -79,7 +86,7 @@ Flower Box:
 ```
 
 
-## Question 12
+## Question 13
 
 Write a program that sets up a chess board using Unicode.
 
@@ -96,9 +103,9 @@ Chess Board:
 ```
 
 
-## Question 13
+## Question 14
 
-You are given a string stored in the variable aString. Create new string named replacedString that contains the characters of the original string with all the occurrences of the character "e" replaced by "\*".
+You are given a string stored in the variable `aString`. Create new string named `replacedString` that contains the characters of the original string with all the occurrences of the character `"e"` replaced by `"\*"`.
 
 ```swift
 var aString = "Replace the letter e with \*"
@@ -114,9 +121,9 @@ Expected values:
 `replacedString = "R*plac* th* l*tt*r * with *"`
 
 
-## Question 14
+## Question 15
 
-You are given a string stored in variable aString. Create a new string called reverse that contains the original string in reverse order. Print the reversed string.
+You are given a string stored in variable `aString`. Create a new string called `reverse` that contains the original string in reverse order. Print the reversed string.
 
 ```swift
 var aString = "this string has 29 characters"
@@ -137,9 +144,9 @@ Output:
 `"olleH"`
 
 
-## Question 15
+## Question 16
 
-Print true if aString is a palindrome, and false otherwise. A palindrome is a string which reads the same backward or forward.
+You are given a string stored in variable `aString`. Print `true` if `aString` is a palindrome, and `false` otherwise. A **palindrome** is a string which reads the same backward or forward.
 
 ```swift
 let aString = "anutforajaroftuna"
@@ -164,9 +171,41 @@ Output:
 `false`
 
 
-## Question 16
+## Question 17
 
-You are given a string stored in variable problem. Write code that prints the longest word in the string.
+You are given a string stored in variable `problem`. Write code so that you print each word of the string on a new line.
+
+```swift
+var problem = "split this string into words and print them on separate lines"
+
+// Your code
+```
+
+Example
+
+Input:
+
+`var problem ="split this string into words and print them on separate lines"`
+
+Output:
+```swift
+split
+this
+string
+into
+words
+and
+print
+them
+on
+separate
+lines
+```
+
+
+## Question 18
+
+You are given a string stored in variable `problem`. Write code that prints the longest word in the string.
 
 ```swift
 var problem = "find the longest word in the problem description"
@@ -185,7 +224,7 @@ Output:
 Hint: Keep track of the longest word you encounter and also keep track of its length.
 
 
-## Question 17
+## Question 19
 
 Given a string in English, create a tuple containing the number of vowels and consonants.
 
@@ -196,7 +235,7 @@ let input = "Count how many vowels I have!"
 ```
 
 
-## Question 18
+## Question 20
 
 Given a string of words separated by a `" "`. Write code that prints out the length of the last word.
 
@@ -207,50 +246,3 @@ Example:
 Sample Input: `"How are you doing this Monday?"`
 
 Sample Output: `7`
-
-
-## Question 19
-
-Given a string with multiple words. Write code that prints how many of them are palindromes.
-
-Example:
-
-Sample Input: `"danaerys dad cat civic bottle"`
-
-Sample Output: `2`
-
-
-## Question 20
-
-You are given a string representing an **attendance record** for a student. The record only contains the following three characters:
-
-`'A' : Absent.`
-
-`'L' : Late.`
-
-`'P' : Present.`
-
-If a student has more than one 'A' or more than 2 continuous 'L's that student should not be rewarded. Print true if student is to be rewarded and False if they shouldn't.
-
-Example:
-
-Sample Input: `"PPALLP"`
-
-Sample Output: `true`
-
-
-## Question 21
-
-Given a tuple with two strings. The first string is a **ransom note**, the second string being the characters from a magazine. Determine whether or not you can construct the ransom note using the characters from the magazine.
-
-Each letter from the magazine can only be used once. You can assume all letters are lowercased.
-
-Examples:
-
-Sample Input1: `("a", "b")`
-
-Sample Output1: `False`
-
-Sample Input2: `("aa", "aab")`
-
-Sample Output2: `True`
