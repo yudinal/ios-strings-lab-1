@@ -92,7 +92,8 @@ var aString = "Replace the letter e with \*"
 // Your code here
  ```
 
-Example
+Example:
+
 Input:
 `var aString = "Replace the letter e with *"`
 
@@ -111,11 +112,14 @@ var reverse = ""
 // Your code here
 ```
 
-Example
+Example:
+
 Input:
 `var aString = "Hello"`
+
 Expected values:
 `reverse = "olleH"`
+
 Output:
 `"olleH"`
 
@@ -129,15 +133,19 @@ let aString = "anutforajaroftuna"
 // Your code here
 ```
 
-Example 1
+Example 1:
+
 Input:
 `var aString = "anutforajaroftuna"`
+
 Output:
 `true`
 
-Example 2
+Example 2:
+
 Input:
 `var aString = "Hello"`
+
 Output:
 `false`
 
@@ -151,13 +159,15 @@ var problem = "find the longest word in the problem description"
 // Your code here
 ```
 
-Example
+Example:
+
 Input:
 `var problem = "find the longest word in the problem description"`
+
 Output:
 `description`
-Hint
-Keep track of the longest word you encounter and also keep track of its length.
+
+Hint: Keep track of the longest word you encounter and also keep track of its length.
 
 ## Question 17
 
@@ -203,13 +213,17 @@ Sample Output: `2`
 You are given a string representing an **attendance record** for a student. The record only contains the following three characters:
 
 'A' : Absent.
+
 'L' : Late.
+
 'P' : Present.
+
 If a student has more than one 'A' or more than 2 continuous 'L's that student should not be rewarded. Print true if student is to be rewarded and False if they shouldn't.
 
 Example:
 
 Sample Input: `"PPALLP"`
+
 Sample Output: `true`
 
 ## Question 22
@@ -220,8 +234,10 @@ Each letter from the magazine can only be used once. You can assume all letters 
 
 Examples:
 
-Sample Input: `("a", "b")`
-Sample Output: `False`
+Sample Input1: `("a", "b")`
 
-Sample Input: `("aa", "aab")`
-Sample Output: `True`
+Sample Output1: `False`
+
+Sample Input2: `("aa", "aab")`
+
+Sample Output2: `True`
