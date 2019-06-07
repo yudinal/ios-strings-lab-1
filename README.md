@@ -2,22 +2,27 @@
 
 Fork and clone this repo. On your fork, answer and commit the follow questions. When you are finished, submit the link to your repo on Canvas.
 
+
 ## Question 1
 
 Write code that prints out all the numbers from 1 to 10 as a single string.
 (Hint: the `String()` function can convert an Int to a String)
 
+
 ## Question 2
 
 Write code that prints out all the even numbers from 5 to 51 as a single string.
+
 
 ## Question 3
 
 Write code that prints out every number ending in 4 between 1 and 60 as a single string.
 
+
 ## Question 4
 
 Print each character in the string ``"Hello world!``"
+
 
 ## Question 5
 
@@ -25,25 +30,31 @@ Print out the last character in the string below.  You cannot use the Character 
 
 `let myStringSeven = "Hello world!"`
 
+
 ## Question 6
 
 Write code that switches on a string. If the string's length is even, print out every character. If the string's length is odd, print out every other character.
+
 
 ## Question 7
 
 Initialize a String with a character. Show that it is a Character, and not another String, that you're using to initialize it.
 
+
 ## Question 8
 
 Build five pairs of **canonically equivalent** strings, the first of each being a pre-composed character and the second being one that uses combinable unicode scalars. Show that they are equivalent.
+
 
 ## Question 9
 
 **Using only Unicode**, print out `"HELLO WORLD!"`
 
+
 ## Question 10
 
 **Using only Unicode**, print out your name.
+
 
 ## Question 11
 
@@ -67,6 +78,7 @@ Flower Box:
 - - - - - - - - - - -
 ```
 
+
 ## Question 12
 
 Write a program that sets up a chess board using Unicode.
@@ -82,6 +94,7 @@ Chess Board:
 ♟ ♟ ♟ ♟ ♟ ♟ ♟ ♟
 ♜ ♞ ♝ ♛ ♚ ♝ ♞ ♜
 ```
+
 
 ## Question 13
 
@@ -123,6 +136,7 @@ Expected values:
 Output:
 `"olleH"`
 
+
 ## Question 15
 
 Print true if aString is a palindrome, and false otherwise. A palindrome is a string which reads the same backward or forward.
@@ -149,9 +163,10 @@ Input:
 Output:
 `false`
 
+
 ## Question 16
 
-You are given a string stored in variable problem. Write code so that you print the longest word in the string.
+You are given a string stored in variable problem. Write code that prints the longest word in the string.
 
 ```swift
 var problem = "find the longest word in the problem description"
@@ -169,6 +184,7 @@ Output:
 
 Hint: Keep track of the longest word you encounter and also keep track of its length.
 
+
 ## Question 17
 
 Given a string `testString` create a new variable called `condensedString` that has any consecutive spaces in `testString` replaced with a single space.
@@ -177,6 +193,7 @@ Given a string `testString` create a new variable called `condensedString` that 
 let testString = "  How   about      thesespaces  ?  "
 //condensedString = " How about thesespaces ? "
 ```
+
 
 ## Question 18
 
@@ -188,15 +205,19 @@ let consonants = "bcdfghjklmnpqrstvwxyz"
 let input = "Count how many vowels I have!"
 ```
 
+
 ## Question 19
 
-Given a string of words separated by a `" "`. Write code that prints out the length of the last word. If there is no last word print out `"No last word"`.
+Given a string of words separated by a `" "`. Write code that prints out the length of the last word.
+
+If there is no last word print out `"No last word"`.
 
 Example:
 
 Sample Input: `"How are you doing this Monday?"`
 
 Sample Output: `7`
+
 
 ## Question 20
 
@@ -208,15 +229,16 @@ Sample Input: `"danaerys dad cat civic bottle"`
 
 Sample Output: `2`
 
+
 ## Question 21
 
 You are given a string representing an **attendance record** for a student. The record only contains the following three characters:
 
-'A' : Absent.
+`'A' : Absent.`
 
-'L' : Late.
+`'L' : Late.`
 
-'P' : Present.
+`'P' : Present.`
 
 If a student has more than one 'A' or more than 2 continuous 'L's that student should not be rewarded. Print true if student is to be rewarded and False if they shouldn't.
 
@@ -225,6 +247,7 @@ Example:
 Sample Input: `"PPALLP"`
 
 Sample Output: `true`
+
 
 ## Question 22
 
