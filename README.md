@@ -54,6 +54,7 @@ Print the below flower box using the following information.
 - Use the terminator argument in your print statements to print on the same line.
 - Hint: It may be useful to try printing out a box of just one character to start then work your way from there.
 
+```swift
 Flower Box:
 - - - - - - - - - - -
 | ⚘ | ⚘ | ⚘ | ⚘ | ⚘ |
@@ -64,11 +65,13 @@ Flower Box:
 | ⚘ | ⚘ | ⚘ | ⚘ | ⚘ |
 | ⚘ | ⚘ | ⚘ | ⚘ | ⚘ |
 - - - - - - - - - - -
+```
 
 ## Question 12
 
 Write a program that sets up a chess board using Unicode.
 
+```swift
 Chess Board:
 ♖ ♘ ♗ ♕ ♔ ♗ ♘ ♖
 ♙ ♙ ♙ ♙ ♙ ♙ ♙ ♙
@@ -78,6 +81,7 @@ Chess Board:
 
 ♟ ♟ ♟ ♟ ♟ ♟ ♟ ♟
 ♜ ♞ ♝ ♛ ♚ ♝ ♞ ♜
+```
 
 ## Question 13
 
