@@ -111,10 +111,10 @@ Chess Board:
 ***
 ## Question 14
 
-You are given a string stored in the variable `aString`. Create new string named `replacedString` that contains the characters of the original string with all the occurrences of the character `"e"` replaced by `"\*"`.
+You are given a string stored in the variable `aString`. Create new string named `replacedString` that contains the characters of the original string with all the occurrences of the character `"e"` replaced by `"*"`.
 
 ```swift
-var aString = "Replace the letter e with \*"
+var aString = "Replace the letter e with *"
 // Your code here
  ```
 
