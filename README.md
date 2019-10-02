@@ -121,24 +121,58 @@ Build five pairs of **canonically equivalent** strings, the first of each being 
 
 ***
 ```
-let unicodeFire = "\u{1F387}"
-let fireCharacter = "fire"
+let unicodeFire = "\u{1F525}"
+let fireCharacter = "🔥"
 if unicodeFire == fireCharacter {
     print("they are equal")
 }
 
+let unicodeSunflower = "\u{1F33B}"
+let sunflowerCharacter = "🌻"
+if unicodeSunflower == sunflowerCharacter {
+    print("they are equal")
+}
 
+let unicodeFlower = "\u{1F940}"
+let flowerCharacter = "🥀"
+if unicodeFlower == flowerCharacter {
+    print("they are equal")
+}
+
+let unicodeCloud = "\u{1F327}"
+let cloudCharacter = "🌧"
+if unicodeCloud == cloudCharacter {
+    print("they are equal")
+}
+
+let unicodeTornado = "\u{1F32A}"
+let tornadoCharacter = "🌪"
+if unicodeTornado == tornadoCharacter {
+    print("they are equal")
+}
 ```
 ## Question 9
 
 **Using only Unicode**, print out `"HELLO WORLD!"`
 
 ***
+```
+let greetingString = "HELLO WORLD!"
+for scalar in greetingString.unicodeScalars {
+    print("\(scalar) ")
+}
+```
 ## Question 10
 
 **Using only Unicode**, print out your name.
 
 ***
+```
+let nameString = "Lilia"
+for scalar in nameString.unicodeScalars {
+    print("\(scalar) ")
+}
+```
 ## Question 11
 
 **Using only Unicode**, print out `"HELLO WORLD!"` in another language.
