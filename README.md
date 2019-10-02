@@ -14,20 +14,55 @@
 Write code that prints out all the numbers from 1 to 10 as a single string.
 (Hint: the `String()` function can convert an Int to a String)
 
+```
+Answer:
+
+var numString = ""
+for num in 1...10 {
+    numString += String(num)
+}
+print(numString)
+```
 ***
 ## Question 2
 
 Write code that prints out all the even numbers from 5 to 51 as a single string.
-
+```
+Answer:
+var numString = ""
+for num in 5...51 {
+    if num % 2 == 0 {
+        numString += String(num)
+    }
+}
+print(numString)
+```
 ***
 ## Question 3
 
 Write code that prints out every number ending in 4 between 1 and 60 as a single string.
 
+```
+Answer:
+var numString = ""
+for num in 1...60 {
+    if num % 10 == 4 {
+        numString += String(num)
+    }
+}
+print(numString)
+```
 ***
 ## Question 4
 
 Print each character in the string `"Hello world!"`
+```
+Answer:
+var message = "Hello world!"
+for char in message {
+print(char)
+}
+```
 
 ***
 ## Question 5
@@ -35,7 +70,17 @@ Print each character in the string `"Hello world!"`
 Print out the last character in the string below.  You cannot use the Character literal "!" (i.e you must access `myStringSeven`'s characters).
 
 `let myStringSeven = "Hello world!"`
+```
+Answer:
+let myStringSeven = "Hello world!"
 
+let endIndex = myStringSeven.endIndex
+
+let lastCharacterIndex = myString.index(before: endIndex)
+
+//let lastCharacter = myStringSeven[lastCharacterIndex]
+print("last charcter in \(myStringSeven) is", myStringSeven[lastCharacterIndex])
+```
 ***
 ## Question 6
 
@@ -44,16 +89,46 @@ Write code that switches on a string, given the following conditions:
 - If the string's length is odd, print out every other character.
 
 ***
+```
+switch message {
+case message where message.count % 2 == 0:
+    for char in message {
+        print(char, terminator: " ")
+    }
+default:
+    for (index, char) in message.enumerated() where index % 2 == 1 {
+        print(char, terminator: " ")
+    }
+}
+
+```
 ## Question 7
 
 Initialize a String with a character. Show that it is a Character, and not another String, that you're using to initialize it.
 
 ***
+```
+let character: Character = "a"
+
+let str = String(character)
+
+print(type(of: character))
+print(type(of: str))
+```
 ## Question 8
 
 Build five pairs of **canonically equivalent** strings, the first of each being a pre-composed character and the second being one that uses combinable unicode scalars. Show that they are equivalent.
 
 ***
+```
+let unicodeFire = "\u{1F387}"
+let fireCharacter = "fire"
+if unicodeFire == fireCharacter {
+    print("they are equal")
+}
+
+
+```
 ## Question 9
 
 **Using only Unicode**, print out `"HELLO WORLD!"`
